@@ -4,15 +4,18 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .promo {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .promo__img {
     width: 100%;
 }
+
 .promo__link {
     font-family: fantasy, cursive;
 }
@@ -28,24 +31,31 @@
     width: 500px;
     margin: 0 auto 0;
 }
+
 .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
+
 .task-row-wrapper {
     display: flex;
 }
+
 .list-container__tasks {
     margin: 0;
     padding: 0px;
 }
-.list-container__tasks__item, h3 {
+
+.list-container__tasks__item, 
+h3 {
     list-style: none;
 }
+
 .input,.btn{
     outline: none;
 }
+
 .btn {
     background: none;
     border: 0px;
@@ -55,9 +65,11 @@
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .btn:hover {
     color: #3a3A3a;
 }
+
 /* Heading */
 .list-container__task__title,
 .label[for="new-task"] {
