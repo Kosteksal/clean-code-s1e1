@@ -22,6 +22,7 @@
         text-align: center;
     }
 }
+
 .centered-main-page-element {
     display: block;
     width: 500px;
@@ -68,6 +69,7 @@
     margin: 0;
     text-transform: uppercase;
 }
+
 .input[type="text"] {
     margin: 0;
     font-size: 18px;
@@ -80,6 +82,7 @@
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .input[type="text"]:focus {
     color: #333;
 }
@@ -108,18 +111,18 @@
     vertical-align: middle;
 }
 
-.list-container__tasks__item > .input[type="checkbox"] {
+.list-container__tasks__item >  .input[type="checkbox"] {
     margin: 0 10px;
 }
 
-.list-container__tasks__item > .label {
+.list-container__tasks__item >  .label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
 
-.list-container__tasks__item > .input[type="text"] {
+.list-container__tasks__item >  .input[type="text"] {
     width: 226px;
 }
 
