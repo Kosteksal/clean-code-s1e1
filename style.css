@@ -20,23 +20,23 @@
     font-family: Lato, sans-serif;
 }
 
-.promo {
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.promo__img {
+.header__img {
     width: 100%;
 }
 
-.promo__link {
+.header__link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-    .promo { 
+    .header { 
         text-align: center;
     }
 
